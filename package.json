@@ -1,0 +1,25 @@
+{
+  "name": "jt3",
+  "version": "0.0.1",
+  "description": "Json Template Transformation Toolkit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiberJe/jt3.git"
+  },
+  "keywords": [
+    "Json",
+    "Template",
+    "Transformation",
+    "Toolkit"
+  ],
+  "author": "JeLewine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LiberJe/jt3/issues"
+  },
+  "homepage": "https://github.com/LiberJe/jt3#readme"
+}
