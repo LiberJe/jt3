@@ -1,6 +1,5 @@
 'use strict';
 
-const test = 1;
-console.log(test);
+const test = data => console.log(data);
 
 module.exports = test;
