@@ -4,7 +4,9 @@
   "description": "Json Template Transformation Toolkit",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "npm run build && node dist/jt3.js",
+    "build": "rollup --config build/rollup.conf.prod.js",
+    "test": ""
   },
   "repository": {
     "type": "git",
@@ -21,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/LiberJe/jt3/issues"
   },
-  "homepage": "https://github.com/LiberJe/jt3#readme"
+  "homepage": "https://github.com/LiberJe/jt3#readme",
+  "devDependencies": {
+    "rollup": "^0.62.0"
+  }
 }
