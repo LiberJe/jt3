@@ -1,5 +1,5 @@
 'use strict';
 
-const test = data => console.log(data);
+const test = data => data;
 
 module.exports = test;

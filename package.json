@@ -4,9 +4,9 @@
   "description": "Json Template Transformation Toolkit",
   "main": "index.js",
   "scripts": {
-    "dev": "npm run build && node dist/jt3.js",
+    "dev": "node example/test.js",
     "build": "rollup --config build/rollup.conf.prod.js",
-    "test": ""
+    "test": "npm run build && node example/test.js"
   },
   "repository": {
     "type": "git",
