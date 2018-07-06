@@ -1,5 +1,8 @@
-'use strict';
+var jt3 = (function () {
+	'use strict';
 
-const test = data => data;
+	const test = data => data;
 
-module.exports = test;
+	return test;
+
+}());

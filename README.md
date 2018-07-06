@@ -1,2 +1,7 @@
 # jt3
-Json Template Transformation Toolkit
+jt3是一个可以通过简单的json配置来生成页面的工具库
+
+## todo
+
+- [] 引入库来配置代码
+- [] 通过node命令生成代码
